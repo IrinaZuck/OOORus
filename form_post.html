@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<title>ООО "Русь"</title>
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+		<h1 class="header__title">Наши услуги</h1>
+		<div class="header__burger">
+			<span></span>
+		</div>
+		<nav class="header__menu">
+		<ul class="header__list">
+			<li class="header__item"><a class="header__button" href="about.html">О нас</a></li>
+			<li class="header__item"><a class="header__button" href="contacts.html">Контакты</a></li>
+			<li class="header__item"><a class="header__button" href="services.html">Услуги</a></li>
+		</ul>
+	</nav>
+    </div>
+	</header>
+    <main class="main main_submit">
+    	<div class="container">
+    	<div class="main__info">Заказать услуги или узнать подробности можно по телефону <a class="main__tel" href="tel:89999999999"> 8 (999) 999-99-99</a> или воспользовавшись формой обратной связи
+    	</div>
+
+        <form action="" method="" class="form">
+        	<label class="form__label" for="name">Ф.И.О.</label>
+        	<input class="form__input form__input_name" type="text" id="name" name="name" placeholder="Введите Ф.И.О.">
+            <label class="form__label" for="tel">Номер телефона</label>
+            <input class="form__input" type="tel" id="tel" placeholder="Введите Номер">
+            <label class="form__label" for="post">Электронная почта</label>
+            <input class="form__input" type="url" id="mail" placeholder="Адрес почты">
+            <label class="form__label" for="select">Какие услуги вы хотите заказать</label>
+            <select class="form__select" multiple required name="select" id="select">
+            	<option class="form__option" value="1">Ремонт под ключ</option>
+            	<option class="form__option" value="2">Электромонтажные работы</option>
+            	<option class="form__option" value="3">Установка кондиционера</option>
+            	<option class="form__option" value="4">Другие работы</option>
+            </select>
+            <label class="form__label" for="textarea">Подробнее о заказе</label>
+            <textarea class="form__textarea" name="textarea" id="textarea"></textarea>
+            <button class="form__submit" type="submut">Отправить сообщение</button>
+        </form>
+    	</div>
+    </main>
+	<footer class="footer">
+		<div class="footer__container container">
+		<div class="footer__logo">
+			Русь
+		</div>
+		<div class="footer__contacts">
+			<p class="footer__tel">
+			Телефон: 8 (999) 999-99-99</p>
+			<p class="footer__mail">	EMAIL: ooo_rus75@bk.ru   
+		</p>
+		</div>
+		</div>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="scripts/slick.min.js"></script>
+<script src="scripts/script.js"></script>
+</body>
+</html>
